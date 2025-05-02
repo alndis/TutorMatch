@@ -1,0 +1,334 @@
+{
+  "tutors": [
+    {
+      "id": "1",
+      "userId": "2",
+      "name": "Жанна Смит",
+      "avatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "subjects": [
+        "Математика",
+        "Физика",
+        "Информатика"
+      ],
+      "hourlyRate": 45,
+      "rating": 4.8,
+      "totalReviews": 124,
+      "education": [
+        "Доктор наук по математике, MIT",
+        "Бакалавр компьютерных наук, Стэнфорд"
+      ],
+      "experience": "Более 10 лет преподавания математики и физики в университете",
+      "bio": "Я специализируюсь на том, чтобы сложные концепции математики и физики были понятны каждому. Мой подход основан на практическом применении и развитии интуиции к предмету.",
+      "availability": [
+        "Понедельник",
+        "Среда",
+        "Пятница"
+      ],
+      "location": "Бостон, Массачусетс",
+      "online": true,
+      "inPerson": true,
+      "featuredSubject": "Высшая математика"
+    },
+    {
+      "id": "2",
+      "userId": "3",
+      "name": "Роберт Чен",
+      "avatar": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "subjects": [
+        "Английская литература",
+        "Креативное письмо",
+        "Грамматика"
+      ],
+      "hourlyRate": 35,
+      "rating": 4.9,
+      "totalReviews": 89,
+      "education": [
+        "Магистр английской литературы, Колумбийский университет",
+        "Бакалавр английского, NYU"
+      ],
+      "experience": "8 лет работы учителем английского языка и частным репетитором",
+      "bio": "Я увлечён литературой и помогаю студентам улучшать навыки письма. Специализируюсь на эссе, критическом анализе и креативном письме.",
+      "availability": [
+        "Вторник",
+        "Четверг",
+        "Суббота"
+      ],
+      "location": "Нью-Йорк, Нью-Йорк",
+      "online": true,
+      "inPerson": false,
+      "featuredSubject": "Эссеистика"
+    },
+    {
+      "id": "3",
+      "userId": "4",
+      "name": "Мария Родригес",
+      "avatar": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "subjects": [
+        "Испанский",
+        "Французский",
+        "Итальянский"
+      ],
+      "hourlyRate": 40,
+      "rating": 4.7,
+      "totalReviews": 56,
+      "education": [
+        "Магистр лингвистики, Университет Барселоны",
+        "Бакалавр современных языков, UCLA"
+      ],
+      "experience": "12 лет преподавания языков студентам всех уровней",
+      "bio": "Носитель испанского языка, владею несколькими языками. Использую разговорный подход, делая упор на практику и культурные особенности.",
+      "availability": [
+        "Понедельник",
+        "Вторник",
+        "Среда",
+        "Четверг",
+        "Пятница"
+      ],
+      "location": "Лос-Анджелес, Калифорния",
+      "online": true,
+      "inPerson": true,
+      "featuredSubject": "Разговорный испанский"
+    },
+    {
+      "id": "4",
+      "userId": "5",
+      "name": "Джеймс Уилсон",
+      "avatar": "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "subjects": [
+        "Химия",
+        "Биология",
+        "Органическая химия"
+      ],
+      "hourlyRate": 50,
+      "rating": 4.6,
+      "totalReviews": 72,
+      "education": [
+        "Доктор наук по химии, Университет Мичигана",
+        "Бакалавр биохимии, UC Berkeley"
+      ],
+      "experience": "15 лет в научных исследованиях и преподавании",
+      "bio": "Я делаю сложные темы по химии доступными для студентов любого уровня. Мой подход сочетает теорию и практику.",
+      "availability": [
+        "Среда",
+        "Четверг",
+        "Суббота",
+        "Воскресенье"
+      ],
+      "location": "Чикаго, Иллинойс",
+      "online": true,
+      "inPerson": true,
+      "featuredSubject": "Органическая химия"
+    },
+    {
+      "id": "5",
+      "userId": "6",
+      "name": "Аиша Патель",
+      "avatar": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "subjects": [
+        "Математика",
+        "Статистика",
+        "Data Science"
+      ],
+      "hourlyRate": 55,
+      "rating": 4.9,
+      "totalReviews": 104,
+      "education": [
+        "Магистр статистики, Гарвард",
+        "Бакалавр математики, IIT"
+      ],
+      "experience": "7 лет преподавания статистики и работы в сфере Data Science",
+      "bio": "Помогаю студентам освоить статистику и её применение в Data Science. Использую реальные задачи и практические примеры программирования.",
+      "availability": [
+        "Понедельник",
+        "Среда",
+        "Пятница",
+        "Воскресенье"
+      ],
+      "location": "Сиэтл, Вашингтон",
+      "online": true,
+      "inPerson": false,
+      "featuredSubject": "Прикладная статистика"
+    },
+    {
+      "id": "6",
+      "userId": "7",
+      "name": "Давид Ким",
+      "avatar": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "subjects": [
+        "Фортепиано",
+        "Теория музыки",
+        "Композиция"
+      ],
+      "hourlyRate": 60,
+      "rating": 4.8,
+      "totalReviews": 68,
+      "education": [
+        "Магистр музыки, Джульярдская школа",
+        "Бакалавр композиции, Berklee"
+      ],
+      "experience": "20 лет профессиональных выступлений и 10 лет преподавания",
+      "bio": "Концертный пианист с большим опытом преподавания. Работаю со студентами всех возрастов и уровней, готовлю к поступлению в консерватории.",
+      "availability": [
+        "Вторник",
+        "Четверг",
+        "Суббота"
+      ],
+      "location": "Сан-Франциско, Калифорния",
+      "online": true,
+      "inPerson": true,
+      "featuredSubject": "Классическое фортепиано"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "tutorId": "1",
+      "userId": "101",
+      "userName": "Михаил Браун",
+      "userAvatar": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "rating": 5,
+      "comment": "Жанна - исключительный репетитор по математике! Она объяснила сложные концепции математического анализа таким образом, что я наконец их понял. Очень рекомендую!",
+      "date": "2023-11-15"
+    },
+    {
+      "id": "2",
+      "tutorId": "1",
+      "userId": "102",
+      "userName": "София Гарсия",
+      "userAvatar": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "rating": 4,
+      "comment": "Очень хорошо разбирается в физике. Занятия были полезными, хотя иногда темп был немного быстрым.",
+      "date": "2023-10-20"
+    },
+    {
+      "id": "3",
+      "tutorId": "2",
+      "userId": "103",
+      "userName": "Эмма Вильсон",
+      "userAvatar": "https://images.pexels.com/photos/1542085/pexels-photo-1542085.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "rating": 5,
+      "comment": "Роберт помог значительно улучшить мои навыки написания эссе. Мои оценки существенно выросли с тех пор, как я начал заниматься с ним.",
+      "date": "2023-12-05"
+    },
+    {
+      "id": "4",
+      "tutorId": "3",
+      "userId": "104",
+      "userName": "Лукас Мартинез",
+      "userAvatar": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "rating": 5,
+      "comment": "Мария - невероятный преподаватель испанского языка! Как носитель языка, она обеспечивает аутентичную разговорную практику и даёт культурные инсайты.",
+      "date": "2023-11-28"
+    },
+    {
+      "id": "5",
+      "tutorId": "4",
+      "userId": "105",
+      "userName": "Анна Смирнова",
+      "userAvatar": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "rating": 5,
+      "comment": "Джеймс отлично объясняет органическую химию, теперь я не боюсь экзамена!",
+      "date": "2023-12-10"
+    },
+    {
+      "id": "6",
+      "tutorId": "5",
+      "userId": "106",
+      "userName": "Иван Кузнецов",
+      "userAvatar": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "rating": 5,
+      "comment": "Аиша помогла мне разобраться в статистике и data science. Очень рекомендую!",
+      "date": "2023-12-12"
+    },
+    {
+      "id": "7",
+      "tutorId": "6",
+      "userId": "107",
+      "userName": "Светлана Орлова",
+      "userAvatar": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "rating": 4,
+      "comment": "Давид — отличный преподаватель музыки, занятия проходят интересно и продуктивно.",
+      "date": "2023-12-15"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "role": "student",
+      "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "favorites": [],
+      "bookings": []
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "role": "tutor",
+      "avatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "favorites": [],
+      "bookings": []
+    },
+    {
+      "id": "vr1wsduvs",
+      "name": "Walter White",
+      "email": "sa@12.21",
+      "password": "123123",
+      "role": "student",
+      "bookings": [
+        {
+          "id": "0i5u743gk",
+          "tutorId": "3",
+          "date": "2026-06-12",
+          "time": "18:00",
+          "status": "pending",
+          "subject": "Французский"
+        }
+      ],
+      "favorites": [
+        "1",
+        "2"
+      ],
+      "avatar": ""
+    },
+    {
+      "id": "3smfq440x",
+      "name": "Walter White1",
+      "email": "sa@12.211",
+      "password": "123",
+      "role": "tutor",
+      "bookings": [
+        {
+          "id": "3hysnb0l0",
+          "tutorId": "2",
+          "date": "2222-11-11",
+          "time": "18:00",
+          "status": "pending",
+          "subject": "Креативное письмо"
+        }
+      ],
+      "favorites": [],
+      "avatar": "",
+      "subjects": [
+        {
+          "name": "фыв",
+          "description": "12312312",
+          "level": "вфывфы",
+          "price": 32
+        }
+      ]
+    },
+    {
+      "id": "kusshwun5",
+      "name": "Nikita Sidikov",
+      "email": "sidikoff1997@mail.ru",
+      "password": "123",
+      "role": "student",
+      "bookings": [],
+      "favorites": [],
+      "avatar": ""
+    }
+  ],
+  "bookings": []
+}
