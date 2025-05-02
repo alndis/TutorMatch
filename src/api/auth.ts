@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3001';
+const API_URL = 'http://82.202.156.91:3001';
 
 export async function login(email: string, password: string) {
   const res = await fetch(`${API_URL}/users?email=${email}`);
