@@ -33,7 +33,7 @@ const Home: React.FC = () => {
             </div>
             <div className="hidden md:block">
               <img 
-                src="../data/img/hero.webp" 
+                src="/img/hero.webp" 
                 alt="Students learning"
                 className="rounded-lg shadow-2xl max-w-md mx-auto"
               />
@@ -235,21 +235,21 @@ const testimonials = [
     subject: 'Математический анализ',
     rating: 5,
     comment: "Я не понимала матанализ, пока не нашла своего репетитора на TutorMatch. Теперь я уверена в своих знаниях, и мои оценки значительно улучшились!",
-    avatar: '../data/img/emily.webp'
+    avatar: '/img/emily.webp'
   },
   {
     name: 'Майкл Чен',
     subject: 'Испанский язык',
     rating: 5,
     comment: 'Мой репетитор по испанскому — потрясающий! Индивидуальные занятия и разговорная практика помогли мне стать намного свободнее всего за несколько месяцев.',
-    avatar: '../data/img/michael.webp'
+    avatar: '/img/michael.webp'
   },
   {
     name: 'Сара Уильямс',
     subject: 'Физика',
     rating: 4,
     comment: 'Я нашла репетитора по физике, который объясняет сложные темы простым языком. Очень рекомендую эту платформу!',
-    avatar: '../data/img/sarah.jpeg'
+    avatar: '/img/sarah.jpeg'
   }
 ];
 
