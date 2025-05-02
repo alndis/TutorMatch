@@ -139,31 +139,31 @@ const steps = [
     icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
     </svg>,
-    image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    image: "../data/img/createAccount.webp"
   },
   {
     title: "Найдите идеального репетитора",
     description: "Используйте наши инструменты поиска и фильтрации, чтобы найти репетиторов, соответствующих вашим конкретным потребностям. Вы можете фильтровать по предмету, ценовому диапазону, доступности и другим параметрам.",
     icon: <Search className="h-8 w-8" />,
-    image: "https://images.pexels.com/photos/4144101/pexels-photo-4144101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    image: "../data/img/findTutor.webp"
   },
   {
     title: "Запланируйте занятия",
     description: "После того, как вы нашли подходящего репетитора, вы можете запланировать занятия прямо через нашу платформу. Выберите удобное для вас обоих время и решите, предпочитаете ли вы онлайн или очное обучение.",
     icon: <Calendar className="h-8 w-8" />,
-    image: "https://images.pexels.com/photos/7176319/pexels-photo-7176319.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    image: "../data/img/scheduleSessions.webp"
   },
   {
     title: "Учитесь и развивайтесь",
     description: "Посещайте запланированные занятия и начинайте учиться! Для онлайн-занятий наша платформа предоставляет интегрированные инструменты видеоконференций. Для очных занятий вы можете согласовать место встречи напрямую с репетитором.",
     icon: <Video className="h-8 w-8" />,
-    image: "https://images.pexels.com/photos/4145354/pexels-photo-4145354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    image: "../data/img/learnGrow.webp"
   },
   {
     title: "Оставьте отзыв",
     description: "После занятий вы можете оставить отзывы и оценки для вашего репетитора. Это помогает другим ученикам найти хороших репетиторов и помогает репетиторам строить свою репутацию на платформе.",
     icon: <Star className="h-8 w-8" />,
-    image: "https://images.pexels.com/photos/7129701/pexels-photo-7129701.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    image: "../data/img/leaveReview.webp"
   }
 ];
 

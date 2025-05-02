@@ -11,7 +11,7 @@
     "test": "jest --config=jest.config.cjs",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "api": "json-server --watch db.json --port 3001 --host 0.0.0.0"
+    "api": "json-server --watch db.json --port 3001 --host 82.202.158.103"
   },
   "dependencies": {
     "lucide-react": "^0.503.0",
