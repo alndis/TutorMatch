@@ -1,4 +1,4 @@
-const API_URL = 'http://82.202.156.91:3001';
+const API_URL = 'http://82.202.158.103:3001';
 
 export async function fetchTutors() {
   const res = await fetch(`${API_URL}/tutors`);
