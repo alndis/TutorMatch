@@ -35,6 +35,24 @@ const About: React.FC = () => {
             которая делает процесс обучения более эффективным и приятным.
           </p>
           
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-8">
+            <div className="flex flex-col items-center">
+              <img src="img/ceo.webp" alt="Генеральный директор" className="w-28 h-28 rounded-full object-cover mb-3 shadow" />
+              <div className="font-semibold text-gray-900">М. В. Мишустин</div>
+              <div className="text-gray-500 text-sm">Генеральный директор</div>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src="img/cto.jpg" alt="Технический директор" className="w-28 h-28 rounded-full object-cover mb-3 shadow" />
+              <div className="font-semibold text-gray-900">C. C. Собянин</div>
+              <div className="text-gray-500 text-sm">Технический директор</div>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src="img/coo.jpg" alt="Операционный директор" className="w-28 h-28 rounded-full object-cover mb-3 shadow" />
+              <div className="font-semibold text-gray-900">С. В. Лавров</div>
+              <div className="text-gray-500 text-sm">Операционный директор</div>
+            </div>
+          </div>
+          
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">История компании</h2>
           <p className="mb-6 text-gray-600">
             Основанная в 2025 году, TutorMatch начиналась как небольшой стартап с большими амбициями. 

@@ -98,13 +98,10 @@ const TutorCard: React.FC<TutorCardProps> = ({ tutor, onBookLesson, onContactTut
           </div>
         </div>
         
-        <div className={
-          // flex-col на мобильных, flex-row на sm+
-          "flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2 sm:gap-2"
-        }>
+        <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
           <Link 
             to={`/tutors/${tutor.id}`} 
-            className="w-full sm:w-auto px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 text-sm font-medium mb-2 sm:mb-0"
+            className="w-full sm:w-auto px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 text-sm font-medium text-center sm:text-left"
           >
             Посмотреть профиль
           </Link>
