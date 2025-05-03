@@ -98,22 +98,25 @@ const TutorCard: React.FC<TutorCardProps> = ({ tutor, onBookLesson, onContactTut
           </div>
         </div>
         
-        <div className="flex justify-between items-center">
+        <div className={
+          // flex-col на мобильных, flex-row на sm+
+          "flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2 sm:gap-2"
+        }>
           <Link 
             to={`/tutors/${tutor.id}`} 
-            className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 text-sm font-medium"
+            className="w-full sm:w-auto px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 text-sm font-medium mb-2 sm:mb-0"
           >
             Посмотреть профиль
           </Link>
-          <div className="space-x-2">
+          <div className="flex flex-col sm:flex-row gap-2 w-full sm:w-auto">
             <button 
-              className="px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 text-sm font-medium"
+              className="w-full sm:w-auto px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 text-sm font-medium"
               onClick={onBookLesson}
             >
               Забронировать
             </button>
             <button 
-              className="px-4 py-2 bg-gray-500 text-white rounded-md hover:bg-gray-600 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50 text-sm font-medium"
+              className="w-full sm:w-auto px-4 py-2 bg-gray-500 text-white rounded-md hover:bg-gray-600 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50 text-sm font-medium"
               onClick={onContactTutor}
             >
               Связаться
