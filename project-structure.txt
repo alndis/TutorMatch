@@ -1,0 +1,87 @@
+project/
+│
+├── src/
+│   ├── components/                  # Переиспользуемые UI-компоненты (блоки)
+│   │   ├── AuthForms.tsx           # Блок форм авторизации
+│   │   ├── BookingForm.tsx         # Блок формы бронирования
+│   │   ├── ContactForm.tsx         # Блок формы обратной связи
+│   │   ├── Dashboard.tsx           # Блок личного кабинета
+│   │   ├── Footer.tsx              # Блок подвала страницы
+│   │   ├── Header.tsx              # Блок шапки страницы
+│   │   ├── Modal.tsx               # Блок модального окна
+│   │   ├── ReviewCard.tsx          # Блок карточки отзыва
+│   │   ├── TutorCard.tsx           # Блок карточки репетитора
+│   │   ├── TutorFilter.tsx         # Блок фильтра репетиторов
+│   │   └── TutorProfile.tsx        # Блок профиля репетитора
+│   │
+│   ├── pages/                      # Страницы приложения
+│   │   ├── About.tsx               # Страница о нас
+│   │   ├── Dashboard.tsx           # Страница личного кабинета
+│   │   ├── Home.tsx                # Главная страница
+│   │   ├── HowItWorks.tsx          # Страница о работе сервиса
+│   │   ├── Login.tsx               # Страница входа в систему
+│   │   ├── SubjectsPage.tsx        # Страница предметов
+│   │   ├── TutorProfile.tsx        # Страница профиля репетитора
+│   │   ├── TutorsList.tsx          # Страница списка репетиторов
+│   │   │
+│   │   └── Support/                # Страницы поддержки
+│   │       ├── Contact.tsx         # Страница контактов
+│   │       ├── FAQ.tsx             # Страница часто задаваемых вопросов
+│   │       ├── Privacy.tsx         # Страница политики конфиденциальности
+│   │       └── Terms.tsx           # Страница условий использования
+│   │
+│   ├── context/                    # Контексты React
+│   │   └── AuthContext.tsx         # Контекст аутентификации
+│   │
+│   ├── api/                        # API клиенты для взаимодействия с бэкендом
+│   │   ├── auth.ts                 # API для аутентификации
+│   │   ├── bookings.ts             # API для бронирований
+│   │   ├── reviews.ts              # API для отзывов
+│   │   ├── tutors.ts               # API для репетиторов
+│   │   └── users.ts                # API для пользователей
+│   │
+│   ├── data/                       # Данные и утилиты для работы с данными
+│   │   ├── photos.ts               # Утилиты для работы с фотографиями
+│   │   ├── tutors.ts               # Данные о репетиторах
+│   │   └── img/                    # Фотографии
+│   │
+│   ├── types/                      # Типы TypeScript
+│   │   └── index.ts                # Основные типы приложения
+│   │
+│   ├── styles/                     # Стили CSS
+│   │   └── index.css               # Основные стили с импортом Tailwind
+│   │
+│   ├── __tests__/                  # Тесты
+│   │   ├── components/
+│   │   │   ├── Modal.test.tsx
+│   │   │   └── TutorCard.test.tsx
+│   │   ├── context/
+│   │   │   └── AuthContext.test.tsx
+│   │   ├── data/
+│   │   │   └── tutors.test.ts
+│   │   └── pages/
+│   │       └── TutorsList.test.tsx
+│   │
+│   ├── __mocks__/                  # Моки для тестов
+│   │   ├── fileMock.js
+│   │   └── moduleMapper.js
+│   │
+│   ├── App.tsx                     # Корневой компонент приложения
+│   ├── main.tsx                    # Точка входа в приложение
+│   ├── vite-env.d.ts              # Типы для Vite
+│   └── setupTests.ts               # Настройка для тестов
+│
+├── public/                         # Публичные статические файлы
+│
+├── coverage/                       # Отчеты о покрытии кода тестами
+│
+├── db.json                         # Мок-данные для JSON сервера
+├── index.html                      # Основной HTML файл
+├── nginx.conf                      # Настройки NGINX
+├── jest.config.cjs                 # Настройки Jest для тестов
+├── postcss.config.js               # Настройки PostCSS
+├── tailwind.config.js              # Настройки Tailwind CSS
+├── tsconfig.json                   # Настройки TypeScript
+├── tsconfig.node.json              # Настройки TypeScript для Node.js
+├── vite.config.ts                  # Настройки сборщика Vite
+└── package.json                    # Зависимости и скрипты проекта
